@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Kalkulator Segitiga</title>
+  </head>
+  <body>
+    <header>
+      <h1>WELCOME TO KATIKGA</h1>
+      <p>
+        <h3><b><i>Kalkulator Matematika Segitiga</i></b></h3>
+      </p>
+    </header>
+
+    <div class="welcome">
+      <h4>** Haii Sobat!!!Selamat Datang di Katikga**</h4>
+      <p>
+        Sebuah Web apps sederhana yang berfungsi untuk mengitung nilai Luas dan
+        Keliling Segitiga
+      </p>
+    </div>
+    <hr />
+    <main>
+      <h2 class="content">Luas Segitiga</h2>
+      <img src="./assets/gambarsegitiga.jpg" alt="gambar" />
+      <p>Rumus Luas segitiga :</p>
+      <p style="text-align: center"><i>L = 1/2 x a x t</i></p>
+      <br />
+      <p>
+        Deskripsi: <br />
+        L = Luas <br />
+        a = Alas <br />
+        t = Tinggi <br />
+      </p>
+      <br />
+      <hr />
+      <h3 style="text-align: center">Mesin Hitung Luas</h3>
+      <section class="input-section">
+        <label for="tinggi-input">Tinggi Segitiga</label>
+        <input type="number" id="tinggiInputLuas" placeholder="0" />
+        <label for="alas-input">Alas Segitiga</label>
+        <input type="number" id="alasInputLuas" placeholder="0" />
+        <br />
+        <section>
+          <button id="HitungLuas">Hitung Luas</button>
+          <button id="ResetLuas">Reset</button>
+        </section>
+      </section>
+        <br>
+      <section class="HasilSegitiga">
+          <label>Hasil Luas</label>
+          <h5 id="HasilLuas"></h5>
+      </section>
+      <br>
+      <br> <hr />
+      <h2 class="content">Keliling Segitiga</h2>
+      <img src="./assets/gambarsegitiga.jpg" alt="gambarsegitiga" />
+      <p>Rumus Keliling segitiga :</p>
+      <p style="text-align: center"><i>K = A + B + C</i></p>
+      <br />
+      <p>
+        Deskripsi: <br />
+        K = Keliling <br />
+        A = Sisi A <br />
+        B = Sisi B <br />
+        C = Sisi C <br />
+      </p>
+      <hr />
+      <h3 style="text-align: center">Mesin Hitung Keliling</h3>
+      <section class="input-section">
+        <label for="Sisi-a-Input">Sisi A</label>
+        <input type="number" id="SisiAInput" placeholder="0" />
+        <label for="Sisi-b-Input">Sisi B</label>
+        <input type="number" id="SisiBInput" placeholder="0" />
+        <label for="Sisi-c-Input">Sisi C</label>
+        <input type="number" id="SisiCInput" placeholder="0" />
+        <br />
+        <section>
+          <button id="HitungKeliling"> Hitung Keliling</button>
+           <button id="ResetKeliling">Reset</button>
+        </section>
+      </section>  
+        <br>
+      <section class="HasilSegitiga">
+          <label>Hasil Keliling</label>
+          <h5 id="HasilKeliling"></h5>
+          <br>
+          <br>
+      </section>
+      <br>
+      <br>
+      <br>
+      <hr>
+      <footer>@My Project Kalkulator Segitiga By Teana - Revou2023</footer>
+    </main>
+    <script src="./js/index.js"></script>
+  </body>
+</html>

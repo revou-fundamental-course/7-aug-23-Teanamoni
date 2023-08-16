@@ -1,0 +1,161 @@
+html {
+  background-color: #faf3f0;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+}
+
+header {
+  color: #3e001f;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 10px;
+}
+.header h1 {
+  font-family: sans-serif;
+}
+.header h4 {
+  font-family: sans-serif;
+}
+.welcome {
+  color: black;
+  font-weight: lighter;
+  text-align: center;
+}
+h3 {
+  font-family: Times, serif;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+}
+
+.content {
+  letter-spacing: 4px;
+  text-align: center;
+  color: #850e35;
+  font-weight: bolder;
+  margin-top: 0;
+  background-color: #ff869e;
+  padding: 35px 30px;
+  border-radius: 7px;
+  font-size: 25px;
+  font-family: "Roboto", "Times New Roman";
+}
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+}
+.input-section :active {
+  transform: translateY(1px);
+}
+
+.hasilSegitiga {
+  text-align: center;
+}
+
+#tinggiInputLuas {
+  width: 100%;
+  height: 30px;
+  border-radius: 9px;
+  border-color: #ff9eaa;
+  border-width: 3px;
+}
+
+#alasInputLuas {
+  width: 100%;
+  height: 30px;
+  border-radius: 9px;
+  border-color: #ff9eaa;
+  border-width: 3px;
+}
+label {
+  display: block;
+  margin-bottom: 6px;
+  margin-top: 10px;
+  font-size: 20px;
+  outline: none;
+}
+
+button {
+  padding: 10px 20px;
+  margin-right: 18px;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  color: #ea1179;
+  background-color: #f79bd3;
+  justify-items: center;
+}
+
+button:hover {
+  background-color: #ff2171;
+  color: #ffd0d0;
+}
+.HasilSegitiga {
+  width: 200px;
+  height: 26px;
+  background-color: #ff9999;
+  text-align: center;
+  border-radius: 4px;
+  color: #850e35;
+}
+#HasilLuas {
+  width: 300px;
+  height: 35px;
+  background-color: #f1d1d0;
+  margin-top: 0;
+  padding-top: 0;
+  font-size: 20px;
+  text-align: center;
+  border: 2px solid#FF577F;
+  border-radius: 5px;
+}
+#SisiAInput {
+  width: 100%;
+  height: 30px;
+  border-radius: 9px;
+  border-color: #ff9eaa;
+  border-width: 3px;
+}
+#SisiBInput {
+  width: 100%;
+  height: 30px;
+  border-radius: 9px;
+  border-color: #ff9eaa;
+  border-width: 3px;
+}
+#SisiCInput {
+  width: 100%;
+  height: 30px;
+  border-radius: 9px;
+  border-color: #ff9eaa;
+  border-width: 3px;
+}
+#HasilKeliling {
+  width: 300px;
+  height: 35px;
+  background-color: #f1d1d0;
+  margin-top: 0;
+  padding-top: 0;
+  font-size: 20px;
+  text-align: center;
+  border: 2px solid#FF577F;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 10px;
+}
